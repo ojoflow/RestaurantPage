@@ -1,4 +1,4 @@
-// const { SourceMapDevToolPlugin } = require("webpack");
+
 
 const loadContact = () => {
     
@@ -16,11 +16,7 @@ const loadContact = () => {
     map.allowFullscreen = '';
     map.loading = 'lazy';
     textcont.append(h2,p,map);
-    //    3d48.8583701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sca!4v1648476019475!5m2!1sen!2sca'
-    //     `h2 class="contact">Contact Us</h2>
-//     <p>Call: 888-88-8888</p>
-//    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10499.966498430253!2d2.2944813!
-//    3d48.8583701!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sca!4v1648476019475!5m2!1sen!2sca"></iframe>
+
     
     return textcont;
 }

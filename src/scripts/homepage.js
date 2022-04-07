@@ -35,8 +35,7 @@ const loadHome = () => {
     
     let myIndex = 0;
 function imageCarousel(){
-        // const home = document.getElementById('home')
-        // if(home.classList.contains('on')){
+ 
         let x = document.getElementsByClassName("myslides");
         for (let i = 0; i < x.length; i++) {
             x[i].style.display = "none";  
@@ -45,7 +44,7 @@ function imageCarousel(){
         if (myIndex > x.length) {myIndex = 1}    
         x[myIndex-1].style.display = "block";  
         setTimeout(imageCarousel, 3000); // Change image every 3 seconds
-    // }
+    
 }
 function addHometoMain() {
         const main = document.querySelector('main');
